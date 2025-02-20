@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Miércoles</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">primera clase de html</h1>
+    </header>
+    <main>
+        <div>
+            <h2 id="datosClase">clase de pow</h2>
+            <p>valores en un texto</p>
+        </div>
+        <!-- Botón para incrementar el contador -->
+        <button id="incrementBtn">Incrementar Número</button>
+    </main>
+    <footer>
+        <!-- Pie de página -->
+        <p>Mi Sitio Web</p>
+    </footer>
+    <style>
+        .titulo{
+            color: blue;
+        }
+        footer{
+            background-color: brown;
+        }
+        button{
+            border: none;
+        }
+        #datosClase{
+            color: red;
+        }
+    </style>
+    <script>
+        let contador = 0;
+        const button = document.getElementById('incrementBtn');
+        button.addEventListener('click', () => {
+            contador++;
+            if(contador > 5){
+                console.log('Valor del contador es mayor a 5:', contador);
+            }else{
+                console.log('Valor del contador:', contador);
+            }
+           
+        });
+    </script>
+</body>
+</html>
