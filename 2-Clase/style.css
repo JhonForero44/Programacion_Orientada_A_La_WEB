@@ -1,0 +1,46 @@
+h1 {
+    /* Activa Flexbox */
+    display: flex; 
+    /* Organiza los elementos en columna */
+    flex-direction: column; 
+    /* Centra horizontalmente */
+    align-items: center; 
+    /* Centra verticalmente */
+    justify-content: center; 
+    /* Establece un margen exterior en todos los lados del elemento */
+    margin: 100px;
+    /* Define el color del texto */
+    color: blueviolet;
+    /* Establece el color de fondo */
+    background-color: lightblue;
+    /* Alinea el texto al centro del elemento */
+    text-align: center;
+    /* Redondea las esquinas del elemento*/
+    border-radius: 10px;
+    /* Añade un espacio interno en todos los lados del elemento */
+    padding: 20px;
+    /* Define la fuente del texto*/
+    font-family: Arial, sans-serif;
+    /* Establece el tamaño de la fuente*/
+    font-size: 24px;
+    /* Hace que el texto sea negrita */
+    font-weight: bold;
+    /* Añade una sombra al elemento: 
+       - 5px de desplazamiento horizontal, 
+       - 5px de desplazamiento vertical, 
+       - 10px de desenfoque, 
+       - y un color negro con 50% de opacidad */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);    
+    /* Aplica una transición suave al cambiar el color de fondo, 
+    con una duración de 0.3 segundos y 
+    un efecto de aceleración "ease" */
+    transition: background-color 0.3s ease;
+}
+
+/* Aplica estos estilos cuando el cursor está sobre el elemento */
+h1:hover {
+    /* Cambia el color de fondo cuando el cursor pasa sobre el elemento */
+    background-color: lightcoral;
+    /* Cambia el cursor a una mano */
+    cursor: pointer;
+}
