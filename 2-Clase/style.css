@@ -1,12 +1,12 @@
 h1 {
     /* Activa Flexbox */
-    display: flex; 
+    display: flex;
     /* Organiza los elementos en columna */
-    flex-direction: column; 
+    flex-direction: column;
     /* Centra horizontalmente */
-    align-items: center; 
+    align-items: center;
     /* Centra verticalmente */
-    justify-content: center; 
+    justify-content: center;
     /* Establece un margen exterior en todos los lados del elemento */
     margin: 100px;
     /* Define el color del texto */
@@ -30,7 +30,7 @@ h1 {
        - 5px de desplazamiento vertical, 
        - 10px de desenfoque, 
        - y un color negro con 50% de opacidad */
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);    
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     /* Aplica una transición suave al cambiar el color de fondo, 
     con una duración de 0.3 segundos y 
     un efecto de aceleración "ease" */
@@ -43,4 +43,119 @@ h1:hover {
     background-color: lightcoral;
     /* Cambia el cursor a una mano */
     cursor: pointer;
+}
+
+/*Propiedades de Margen (Margin)*/
+margen {
+    /* Establece solo el margen superior */
+    margin-top: 20px;
+    /* Establece solo el margen inferior */
+    margin-bottom: 20px;
+    /* Establece solo el margen izquierdo */
+    margin-left: 15px;
+    /* Establece solo el margen derecho */
+    margin-right: 15px;
+    /* Margen automático en los lados izquierdo y derecho para centrar */
+    margin: 0 auto;
+}
+
+/* Propiedades de Espaciado Interno (Padding) */
+padding {
+    /* Establece solo el espaciado interno superior */
+    padding-top: 15px;
+    /* Establece solo el espaciado interno inferior */
+    padding-bottom: 15px;
+    /* Establece solo el espaciado interno izquierdo */
+    padding-left: 10px;
+    /* Establece solo el espaciado interno derecho */
+    padding-right: 10px;
+}
+
+/* Propiedades de Contenido y Tamaño */
+tamaño {
+    /* Define un ancho fijo */
+    width: 300px;
+    /* Define una altura fija */
+    height: 150px;
+    /* Hace que el ancho sea el 100% del contenedor padre */
+    width: 100%;
+    /* Hace que la altura sea el 100% del contenedor padre */
+    height: 100%;
+}
+
+/* Propiedades de Borde (Border) */
+border {
+    /* Agrega un borde sólido negro de 2px */
+    border: 2px solid black;
+    /* Agrega un borde punteado rojo */
+    border: 1px dotted red;
+    /* Elimina el borde */
+    border: none;
+}
+
+/*Propiedades de Fondo (Background)*/
+background {
+    /* Imagen de fondo */
+    background-image: url('imagen.jpg');
+    /* Repetir la imagen solo en horizontal */
+    background-repeat: repeat-x;
+    /* Repetir la imagen solo en vertical */
+    background-repeat: repeat-y;
+    /* No repetir la imagen */
+    background-repeat: no-repeat;
+    /* Ajustar la imagen al tamaño del contenedor */
+    background-size: cover;
+    /* Establecer posición de la imagen */
+    background-position: center;
+
+}
+
+/* Propiedades de Texto */
+texto {
+    /* Poner en cursiva */
+    font-style: italic;
+    /* Espaciado entre letras */
+    letter-spacing: 2px;
+    /* Espaciado entre líneas */
+    line-height: 1.5;
+    /* Transformar texto en mayúsculas */
+    text-transform: uppercase;
+    /* Transformar texto en minúsculas */
+    text-transform: lowercase;
+    /* Subrayar el texto */
+    text-decoration: underline;
+    /* Quitar subrayado (útil en enlaces) */
+    text-decoration: none;
+}
+
+/* Propiedades de Display y Posicionamiento */
+display {
+    /* Ocultar un elemento */
+    display: none;
+    /* Mostrar como bloque */
+    display: block;
+    /* Mostrar como inline */
+    display: inline;
+    /* Mostrar como inline-block */
+    display: inline-block;
+    /* Posicionar absolutamente */
+    position: absolute;
+    /* Posicionar relativo a su contenedor */
+    position: relative;
+    /* Posicionar fijo en la pantalla */
+    position: fixed;
+    /* Posicionar en relación al viewport */
+    position: sticky;
+}
+
+/*Propiedades de Opacidad y Transformación*/
+opacidad {
+    /* Hace un elemento semi-transparente */
+    opacity: 0.5;
+    /* Escala el elemento al 120% */
+    transform: scale(1.2);
+    /* Rota el elemento 45 grados */
+    transform: rotate(45deg);
+    /* Desplaza el elemento 20px a la derecha y 10px hacia abajo */
+    transform: translate(20px, 10px);
 }
