@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola Mundo</title>
+</head>
+<body>
+    <p>Hola esta es mi primera pagina web</p>
+
+    <h2>Lista Ordenada</h2>
+    <ol>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ol>
+    <h2>Lista Desordenada</h2>
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+
+    <h2>Imagen con Enlace</h2>
+    <p>A quie si quieres puedes ingresar a la pagina <a href="https://ubuntu.com/download"> Ubuntu </a> </p>
+    <img src="https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,w_1801,h_954/https://assets.ubuntu.com/v1/622b4fe1-numpy-numbat-on-dell-xps-13.jpg" alt="ubuntu">
+
+    <h2>Tablas</h2>
+    <table>
+        <tr>
+            <th>Encabezado 1</th>
+            <th>Encabezado 2</th>
+        </tr>
+        <tr>
+            <td>Celda 1</td>
+            <td>Celda 2</td>
+        </tr>
+    </table>
+
+    <h2>Enlazar Archivos de JavaScript y CSS</h2>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+
+    <h2>Semantica HTML</h2>
+    <p> header: Encabezado de la página o sección. </p>
+    <p> footer: Pie de página. </p>
+    <p> article: Un artículo independiente. </p>
+    <p> section: Una sección de contenido. </p>
+    <p> nav: Navegación. </p>
+
+    <hr>
+    <h2>Formulario de Contacto</h2>
+
+    <!-- Comienzo del formulario -->
+    <form action="/submit" method="POST">
+        
+        <!-- Campo de texto para el nombre -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br><br>
+
+        <!-- Campo de correo electrónico -->
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <!-- Campo de mensaje -->
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
+        <br><br>
+
+        <!-- Botón de enviar -->
+        <button type="submit">Enviar</button>
+    </form>
+    
+</body>
+</html>
