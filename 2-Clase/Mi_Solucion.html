@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+    <main>
+        <h1>Ejercicio Contador</h1>
+        <div class="contador">
+            <button id="disminuirBoton">-</button>
+            <span id="contador">0</span>
+            <button id="incrementarBoton">+</button>
+        </div>
+    </main>
+</body>
+<style>
+    body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        background: linear-gradient(135deg, #34495e, #2c3e50);
+    }
+
+    main {
+        background: rgba(44, 62, 80, 0.9);
+        padding:40px;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    h1{
+        margin-bottom: 20px;
+        color: #ecf0f1;
+    }
+
+    .contador {
+        text-align: center;
+        color: #ecf0f1;
+    }
+
+    button {
+        font-size: 20px;
+        padding: 10px 20px;
+        margin: 10px;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        background-color: #2980b9;
+        color: #ecf0f1;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover{
+        background-color: #1c6391;
+    }
+
+    #contador{
+        font-size: 48px;
+        margin: 20px;
+        display: inline-block;
+        width: 120px;
+        text-align: center;
+        background: #95a5a6;
+        padding: 10px;
+        border-radius: 20px;
+        color: #2c3e50;
+    }
+
+</style>
+<script>
+    var contador = document.getElementById('contador');
+    var valueInicial = 0;
+    var max = 10;
+    var min = -10;
+    const buttonMax = document.getElementById('incrementarBoton');
+    const buttonMin = document.getElementById('disminuirBoton');
+
+    function update() {
+        contador.textContent = valueInicial;
+        if (valueInicial === max) {
+            swal("¡Alcanzaste el máximo!", "El valor máximo es 10.", "success");
+        } else if (valueInicial === min) {
+            swal("¡Alcanzaste el mínimo!", "El valor mínimo es -10.", "warning");
+        }
+    }
+
+    buttonMax.addEventListener('click', () => {
+        if (valueInicial < max) {
+            valueInicial++;
+            update();
+        }
+    });
+
+    buttonMin.addEventListener('click', () => {
+        if (valueInicial > min) {
+            valueInicial--;
+            update();
+        }
+    });
+
+
+</script>
+
+</html>
