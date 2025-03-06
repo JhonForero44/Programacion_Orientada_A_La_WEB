@@ -1,0 +1,230 @@
+/* Estilos generales */
+body {
+    font-family: monospace;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Botón de índice */
+#BotonIndex {
+    background-color: lightblue;
+    padding: 12px 20px;
+    border-radius: 40px;
+    border: 2px solid lightsalmon;
+    font-size: 1em;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+#BotonIndex:hover {
+    background-color: lightsalmon;
+    color: white;
+    transform: scale(1.1);
+}
+
+/* Título */
+h1 {
+    text-align: center;
+}
+
+/* Contenedor de personajes */
+.characters-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 columnas en escritorio */
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+/* Tarjeta de personaje */
+.character-card {
+    background-color: #e0daa3;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    width: 100%;
+    max-width: 250px;
+}
+
+/* Efecto al pasar el mouse */
+.character-card:hover {
+    transform: scale(1.05);
+}
+
+/* Efecto touch en móviles */
+.character-card:active {
+    transform: scale(1.05);
+}
+
+/* Imagen del personaje */
+.character-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Nombre del personaje */
+.character-card h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Lista de episodios */
+.character-card ul {
+    list-style: none;
+    padding: 0;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.character-card ul li {
+    background-color: #f4f4f4;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+/* Página de detalles */
+.character-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 20px;
+}
+
+.character-detail img {
+    width: 80%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.character-detail ul {
+    list-style: none;
+    padding: 0;
+}
+
+.character-detail ul li {
+    background-color: #f4f4f4;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 80%;
+}
+
+/* ✅ Responsive Design */
+
+/* Tablets (3 columnas) */
+@media (max-width: 1024px) {
+    .characters-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Móviles (2 columnas) */
+@media (max-width: 768px) {
+    .characters-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .character-card {
+        width: calc(50% - 10px);
+    }
+}
+
+/* Celulares pequeños (1 columna) */
+@media (max-width: 480px) {
+    .characters-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .character-card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .characters-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .characters-container {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(150px, 1fr));
+        gap: 10px;
+    }
+}
+
+/* Estilos generales */
+body {
+    font-family: monospace;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menú de navegación lineal diagonal */
+nav.menu {
+    background-color: #333;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav.menu li {
+    margin: 0 15px; /* Espaciado entre los elementos */
+    transform: rotate(-20deg); /* Rotación diagonal ligera */
+    transform-origin: center;
+}
+
+nav.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav.menu li:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 768px) {
+    nav.menu {
+        padding: 5px 0; /* Menor padding en móviles */
+    }
+
+    nav.menu li {
+        margin: 0 10px; /* Menor margen en móviles */
+        transform: rotate(-15deg); /* Rotación menos pronunciada en pantallas pequeñas */
+    }
+}
