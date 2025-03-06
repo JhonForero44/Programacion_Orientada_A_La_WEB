@@ -1,0 +1,138 @@
+[
+  {
+    "nombre": "Independiente",
+    "pais": "Argentina",
+    "estadio": "Estadio Libertadores de América",
+    "títulos": 7,
+    "último_campeón": 1984,
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Escudo_del_Club_Atl%C3%A9tico_Independiente.svg"
+  },
+  {
+    "nombre": "Boca Juniors",
+    "pais": "Argentina",
+    "estadio": "Estadio Alberto J. Armando (La Bombonera)",
+    "títulos": 6,
+    "último_campeón": 2007,
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/1/1a/CABJ_logo.svg"
+  },
+  {
+    "nombre": "Peñarol",
+    "pais": "Uruguay",
+    "estadio": "Estadio Campeón del Siglo",
+    "títulos": 5,
+    "último_campeón": 1987,
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Escudo-club-atletico-penarol.png"
+  },
+  {
+    "nombre": "River Plate",
+    "pais": "Argentina",
+    "estadio": "Estadio Monumental",
+    "títulos": 4,
+    "último_campeón": 2018,
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/3/3f/CA_River_Plate_logo.svg"
+  },
+  {
+    "nombre": "Estudiantes de La Plata",
+    "pais": "Argentina",
+    "estadio": "Estadio Jorge Luis Hirschi",
+    "títulos": 4,
+    "último_campeón": 2009,
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Estudiantes_LP_logo.svg"
+  },
+  {
+    "nombre": "Flamengo",
+    "pais": "Brasil",
+    "estadio": "Maracaná",
+    "títulos": 3,
+    "último_campeón": 2022,
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Clube_de_Regatas_do_Flamengo_logo.svg"
+  },
+  {
+    "nombre": "Santos",
+    "pais": "Brasil",
+    "estadio": "Estadio Urbano Caldeira (Vila Belmiro)",
+    "títulos": 3,
+    "último_campeón": 2011,
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/3/35/Santos_logo.svg"
+  },
+  {
+    "nombre": "Olimpia",
+    "pais": "Paraguay",
+    "estadio": "Estadio Manuel Ferreira",
+    "títulos": 3,
+    "último_campeón": 2002,
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/1/14/Club_Olimpia_Logo.svg"
+  },
+  {
+    "nombre": "Nacional",
+    "pais": "Uruguay",
+    "estadio": "Gran Parque Central",
+    "títulos": 3,
+    "último_campeón": 1988,
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Escudo_de_Nacional.svg"
+  },
+  {
+    "nombre": "Atlético Nacional",
+    "pais": "Colombia",
+    "estadio": "Estadio Atanasio Girardot",
+    "títulos": 2,
+    "último_campeón": 2016,
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/3/31/Escudo_Atl%C3%A9tico_Nacional.png"
+  },
+  {
+    "nombre": "Internacional",
+    "pais": "Brasil",
+    "estadio": "Estadio Beira-Rio",
+    "títulos": 2,
+    "último_campeón": 2010,
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/2/28/SC_Internacional_logo.svg"
+  },
+  {
+    "nombre": "Gremio",
+    "pais": "Brasil",
+    "estadio": "Arena do Grêmio",
+    "títulos": 3,
+    "último_campeón": 2017,
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/9/93/Gremio.svg"
+  },
+  {
+    "nombre": "Vélez Sarsfield",
+    "pais": "Argentina",
+    "estadio": "Estadio José Amalfitani",
+    "títulos": 1,
+    "último_campeón": 1994,
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Escudo_del_Club_Atl%C3%A9tico_V%C3%A9lez_Sarsfield.svg"
+  },
+  {
+    "nombre": "Colo-Colo",
+    "pais": "Chile",
+    "estadio": "Estadio Monumental David Arellano",
+    "títulos": 1,
+    "último_campeón": 1991,
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Escudo_del_Club_Social_y_Deportivo_Colo-Colo.svg"
+  },
+  {
+    "nombre": "Once Caldas",
+    "pais": "Colombia",
+    "estadio": "Estadio Palogrande",
+    "títulos": 1,
+    "último_campeón": 2004,
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/7/72/Once_Caldas_logo.svg"
+  },
+  {
+    "nombre": "LDU Quito",
+    "pais": "Ecuador",
+    "estadio": "Estadio Rodrigo Paz Delgado",
+    "títulos": 1,
+    "último_campeón": 2008,
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/7/79/Liga_Deportiva_Universitaria_Logo.svg"
+  },
+  {
+    "nombre": "Argentinos Juniors",
+    "pais": "Argentina",
+    "estadio": "Estadio Diego Armando Maradona",
+    "títulos": 1,
+    "último_campeón": 1985,
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Asociación_Atlética_Argentinos_Juniors.svg"
+  }
+]
