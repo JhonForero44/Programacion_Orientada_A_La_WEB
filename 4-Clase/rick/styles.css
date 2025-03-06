@@ -180,43 +180,6 @@ body {
     padding: 0;
 }
 
-/* Menú de navegación lineal diagonal */
-nav.menu {
-    background-color: #333;
-    padding: 10px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-nav.menu ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
-
-nav.menu li {
-    margin: 0 15px; /* Espaciado entre los elementos */
-    transform: rotate(-20deg); /* Rotación diagonal ligera */
-    transform-origin: center;
-}
-
-nav.menu a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    padding: 10px 15px;
-    display: block;
-    text-align: center;
-    transition: background-color 0.3s ease-in-out;
-}
-
-nav.menu li:hover {
-    background-color: #555;
-    border-radius: 5px;
-}
-
 /* Ajustes para dispositivos móviles */
 @media (max-width: 768px) {
     nav.menu {

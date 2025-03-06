@@ -1,0 +1,28 @@
+.nav-header {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color: #1C1C1C; /* Negro */
+    padding: 10px;
+}
+
+.nav-header button {
+    background-color: #C9A74D; /* Dorado */
+    color: #1C1C1C; /* Texto en negro */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-weight: bold;
+}
+
+.nav-header button:hover {
+    background-color: #A88332; /* Dorado más oscuro */
+    transform: scale(1.1);
+}
+
+.nav-header button:active {
+    background-color: #876D29; /* Aún más oscuro */
+}
