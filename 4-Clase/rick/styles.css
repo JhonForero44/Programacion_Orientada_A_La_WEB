@@ -47,7 +47,7 @@ h1 {
 
 /* Tarjeta de personaje */
 .character-card {
-    background-color: #e0daa3;
+    background-color: rgba(224, 218, 163, 0.8); /* Color con transparencia */
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     padding: 15px;
@@ -173,11 +173,12 @@ h1 {
 /* Estilos generales */
 body {
     font-family: monospace;
-    background-color: lightgoldenrodyellow;
+    background: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExajhycW11bDY0OHZqMjJqcG1pejB6MGdvanJoNHRvd29wYWxoMzluMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zo7nbbrQKwdb2rSG4k/giphy.gif') no-repeat center center fixed;
     color: black;
     text-align: center;
     margin: 0;
     padding: 0;
+    background-size: cover;
 }
 
 /* Ajustes para dispositivos móviles */

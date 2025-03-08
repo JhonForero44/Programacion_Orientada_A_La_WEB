@@ -5,7 +5,8 @@
     "estadio": "Estadio Libertadores de América",
     "títulos": 7,
     "último_campeón": 1984,
-    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1825.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=056f45205cd73252f7de70aeefcc6885"
+    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1825.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=056f45205cd73252f7de70aeefcc6885",
+    "imgCampeon" : ""
   },
   {
     "nombre": "Boca Juniors",
@@ -13,7 +14,8 @@
     "estadio": "Estadio Alberto J. Armando (La Bombonera)",
     "títulos": 6,
     "último_campeón": 2007,
-    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1696.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=9c73e05d0abdf902d0e78017954b6660"
+    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1696.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=9c73e05d0abdf902d0e78017954b6660",
+    "imgCampeon" : ""
   },
   {
     "nombre": "Peñarol",
@@ -21,7 +23,8 @@
     "estadio": "Estadio Campeón del Siglo",
     "títulos": 5,
     "último_campeón": 1987,
-    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1700.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=98ad791c0ae58fd7a66f04df9f0e947d"
+    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1700.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=98ad791c0ae58fd7a66f04df9f0e947d",
+    "imgCampeon" : ""
   },
   {
     "nombre": "River Plate",
@@ -29,7 +32,8 @@
     "estadio": "Estadio Monumental",
     "títulos": 4,
     "último_campeón": 2018,
-    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1829.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=f7f43e00e037e45b0324a50e376b3156"
+    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1829.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=f7f43e00e037e45b0324a50e376b3156",
+    "imgCampeon" : "https://scontent.fclo12-1.fna.fbcdn.net/v/t1.6435-9/116453283_1649800615192181_721181222090288696_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=rwhRuSIFP3QQ7kNvgF82A_I&_nc_oc=AdjicmO_YdxRhhYls02zCdP0McJkwNYteZ_dk5kU-3ZXmtO9TAlf399Kd1IAxpNbt30P66erjaJY1zCkaf9TTqkK&_nc_zt=23&_nc_ht=scontent.fclo12-1.fna&_nc_gid=A4eSZg6utMbxwmqAv0oUAbG&oh=00_AYGWjBaaierXY_IDDeZu_ML_1upWH0uCxhHMzcKJSFcR-g&oe=67F3CFE3"
   },
   {
     "nombre": "Estudiantes de La Plata",
@@ -37,7 +41,8 @@
     "estadio": "Estadio Jorge Luis Hirschi",
     "títulos": 4,
     "último_campeón": 2009,
-    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1820.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=721bf5b846fe756cf4fa7208a595e24a"
+    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1820.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=721bf5b846fe756cf4fa7208a595e24a",
+    "imgCampeon" : ""
   },
   {
     "nombre": "Flamengo",
@@ -45,7 +50,8 @@
     "estadio": "Maracaná",
     "títulos": 3,
     "último_campeón": 2022,
-    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1802.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=f0d7a49232d3dc2a0a1e0f873271f7b2"
+    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1802.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=f0d7a49232d3dc2a0a1e0f873271f7b2",
+    "imgCampeon" : "https://scontent.fclo12-1.fna.fbcdn.net/v/t39.30808-6/312917704_2461419927363575_8846761485677812623_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=5vvAeiWG7xgQ7kNvgG79Id_&_nc_oc=AdhTxbJNjAaVxUD8iQcRvo0mFf7TZiF262gM6SwTi5yro3FVmrfXjLC1ZNBVEAILBiQ_DK1iFDwh0XMBQOcFef6y&_nc_zt=23&_nc_ht=scontent.fclo12-1.fna&_nc_gid=AgXML10Hrved-BaAV5jhE2v&oh=00_AYEbo3x8BUlR-YF6uDKMLgSrbKDtc7m7pKlQu4rrmdievQ&oe=67D2238B"
   },
   {
     "nombre": "Santos",
@@ -53,7 +59,8 @@
     "estadio": "Estadio Urbano Caldeira (Vila Belmiro)",
     "títulos": 3,
     "último_campeón": 2011,
-    "escudo": "https://upload.wikimedia.org/wikipedia/commons/3/35/Santos_logo.svg"
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/3/35/Santos_logo.svg",
+    "imgCampeon" : ""
   },
   {
     "nombre": "Olimpia",
@@ -61,7 +68,8 @@
     "estadio": "Estadio Manuel Ferreira",
     "títulos": 3,
     "último_campeón": 2002,
-    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1680.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=c87e6c61bd9a2fd03435257420b9ac37"
+    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1680.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=c87e6c61bd9a2fd03435257420b9ac37",
+    "imgCampeon" : "https://scontent.fclo12-1.fna.fbcdn.net/v/t1.6435-9/116152026_1644800852358824_5665053551597495493_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=2np2W9k8aAEQ7kNvgFhM9VH&_nc_oc=AdiJRq3o60JcKkFFxnn6VI8yv7zun32UpcOckFFyeBHfwQf1RII-kxdBrVwda6x_bOcE8IdexniDV9WN7jcS6SK7&_nc_zt=23&_nc_ht=scontent.fclo12-1.fna&_nc_gid=A3XXmy18wyLynd54bUE3msI&oh=00_AYGq4hcl1RaOU-jVD7uCFyszwPTDxiglzFymyH-SW22ohQ&oe=67F3C7CF"
   },
   {
     "nombre": "Nacional",
@@ -69,7 +77,8 @@
     "estadio": "Gran Parque Central",
     "títulos": 3,
     "último_campeón": 1988,
-    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1671.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=b373192a16f3989b35adf9e26abde7c3"
+    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1671.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=b373192a16f3989b35adf9e26abde7c3",
+    "imgCampeon" : ""
   },
   {
     "nombre": "San Lorenzo",
@@ -77,7 +86,8 @@
     "estadio": "Estadio Pedro Bidegain",
     "títulos": 1,
     "último_campeón": 2014,
-    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1831.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=5febec274d263ff32613a2dc5d6222cf"
+    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1831.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=5febec274d263ff32613a2dc5d6222cf",
+    "imgCampeon" : "https://scontent.fclo12-1.fna.fbcdn.net/v/t1.6435-9/117301246_1657678361071073_5698047203882445863_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=dbf3Gdms5d4Q7kNvgHujnIL&_nc_oc=AdiT9wi667IZUGIVveXrx7rK3MFv0XpwIslXHqEEVSWUQaL2o75m84HX-bx6v2PMdtiZGGFk2GfKYO8VqirGcy-x&_nc_zt=23&_nc_ht=scontent.fclo12-1.fna&_nc_gid=ASXA3m8jL815fE0UD_JPY4-&oh=00_AYGb6AS_PHat38d68XJvDV4sd0H6L5RjYfTi-87Hr8CuKg&oe=67F3CABA"
   },
   {
     "nombre": "Atlético Nacional",
@@ -85,7 +95,8 @@
     "estadio": "Estadio Atanasio Girardot",
     "títulos": 2,
     "último_campeón": 2016,
-    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F2068.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=4ef66efee8aedfd628ee3461f9fb2d4d"
+    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F2068.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=4ef66efee8aedfd628ee3461f9fb2d4d",
+    "imgCampeon" : "https://scontent.fclo12-1.fna.fbcdn.net/v/t1.6435-9/116242367_1449278811924005_8626504102088587443_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=9e_Lj1zUJUYQ7kNvgEn6H01&_nc_oc=Adj_zK7eAVKp_tRSdw7gJNaNqbRllYgIyJkW4lzc-RCs2qpV0fV3CsulFPiaNXdM-80zTr25sIJIAmG5o9DEt9xJ&_nc_zt=23&_nc_ht=scontent.fclo12-1.fna&_nc_gid=A6oJmIetMq78u9pYQsyVazr&oh=00_AYFOZPyv4NF82rdbsUG26iML317AD1ogoEQ6VGhsEKbFTA&oe=67F3E4B5"
   },
   {
     "nombre": "Internacional",
@@ -93,7 +104,8 @@
     "estadio": "Estadio Beira-Rio",
     "títulos": 2,
     "último_campeón": 2010,
-    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1799.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=ecace68aceac64b7c15c03f5292d1104"
+    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1799.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=ecace68aceac64b7c15c03f5292d1104",
+    "imgCampeon" : "https://scontent.fclo12-1.fna.fbcdn.net/v/t1.6435-9/117907009_1660557114116531_3965883496974784081_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=5YAhvlK-f0UQ7kNvgEb2aot&_nc_oc=AdjkVJzRC9C80glo36sb5IUTgIsODOONJDQai8boNCcZFUq04C6jyCWf63T7q49cZl1vbVbBtzauDetD4OVBoBpZ&_nc_zt=23&_nc_ht=scontent.fclo12-1.fna&_nc_gid=AkWUTMWlsOMYYcApOVddF6k&oh=00_AYH_VJxluvZTcSttFO9GluYPKlCizmQUmsrvcPpk9nnrCQ&oe=67F3DFB9"
   },
   {
     "nombre": "Gremio",
@@ -101,7 +113,8 @@
     "estadio": "Arena do Grêmio",
     "títulos": 3,
     "último_campeón": 2017,
-    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1670.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=8ac328b33b592bb13c583bb3db472508"
+    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1670.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=8ac328b33b592bb13c583bb3db472508",
+    "imgCampeon" : "https://scontent.fclo12-1.fna.fbcdn.net/v/t1.6435-9/127192009_1782285155277059_5539396098402656934_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=8YD34cNzXDwQ7kNvgFg_AtS&_nc_oc=Adgom8sxwzyCJbVvT0kyGUzMpx4TXdKT4BkQ9RVuCpmIj-ojU5wjO7so2Z2m1QUYpka5Lm6DPZ7yXRYRiUn7GL0u&_nc_zt=23&_nc_ht=scontent.fclo12-1.fna&_nc_gid=Axo8LrpUP36vA5MGuxOTeVo&oh=00_AYHq986DFix6pqS6OZCJ7OH-A3PXWg95IGoqcigfybLQ_g&oe=67F3F5FC"
   },
   {
     "nombre": "Vélez Sarsfield",
@@ -109,7 +122,8 @@
     "estadio": "Estadio José Amalfitani",
     "títulos": 1,
     "último_campeón": 1994,
-    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1674.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=2c4671b1f439ad687ec04c6c2f0c99a3"
+    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1674.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=2c4671b1f439ad687ec04c6c2f0c99a3",
+    "imgCampeon" : ""
   },
   {
     "nombre": "Colo-Colo",
@@ -117,7 +131,8 @@
     "estadio": "Estadio Monumental David Arellano",
     "títulos": 1,
     "último_campeón": 1991,
-    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1810.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=1c3720fe6cef816b2b33fe65318eee95"
+    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1810.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=1c3720fe6cef816b2b33fe65318eee95",
+    "imgCampeon" : ""
   },
   {
     "nombre": "Once Caldas",
@@ -125,7 +140,8 @@
     "estadio": "Estadio Palogrande",
     "títulos": 1,
     "último_campeón": 2004,
-    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F2304.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=c3a5617df079e85695228c881fde5ea3"
+    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F2304.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=c3a5617df079e85695228c881fde5ea3",
+    "imgCampeon" : "https://pbs.twimg.com/media/FWhM5V9WIAAXJrp?format=jpg&name=4096x4096"
   },
   {
     "nombre": "Palmeiras",
@@ -133,7 +149,8 @@
     "estadio": "Allianz Parque",
     "titulos": 3,
     "último_campeón": 2021,
-    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1693.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=7cc75b4934019cc088f8829590992069"
+    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1693.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=7cc75b4934019cc088f8829590992069",
+    "imgCampeon" : ""
   },
   {
     "nombre": "LDU Quito",
@@ -141,7 +158,8 @@
     "estadio": "Estadio Rodrigo Paz Delgado",
     "títulos": 1,
     "último_campeón": 2008,
-    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1686.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=a128302ddd211ebe6b8ef343d1bf6b14"
+    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1686.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=a128302ddd211ebe6b8ef343d1bf6b14",
+    "imgCampeon" : ""
   },
   {
     "nombre": "Vélez Sarsfield",
@@ -149,7 +167,8 @@
     "estadio": "Estadio José Amalfitani",
     "títulos": 1,
     "último_campeón": 1994,
-    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1674.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=2c4671b1f439ad687ec04c6c2f0c99a3"
+    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1674.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=2c4671b1f439ad687ec04c6c2f0c99a3",
+    "imgCampeon" : ""
   },
   {
     "nombre": "Argentinos Juniors",
@@ -157,7 +176,8 @@
     "estadio": "Estadio Diego Armando Maradona",
     "títulos": 1,
     "último_campeón": 1985,
-    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1830.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=9dbb493f852d7966e9995c2517fd5fb5"
+    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1830.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=9dbb493f852d7966e9995c2517fd5fb5",
+    "imgCampeon" : ""
   },
   {
     "nombre": "São Paulo",
@@ -165,6 +185,7 @@
     "títulos": 3,
     "estadio": "Estadio Morumbi",
     "último_campeón": 2005,
-    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1677.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=7c05861385b07e3ec728e3a6532b4562"
+    "escudo": "https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F1677.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=7c05861385b07e3ec728e3a6532b4562",
+    "imgCampeon" : ""
   }
 ]

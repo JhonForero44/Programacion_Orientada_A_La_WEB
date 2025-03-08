@@ -1,26 +1,27 @@
-/* Estilos generales */
+/* Fuente moderna */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #F5F5F5; /* Fondo claro */
-    color: #333; /* Texto oscuro */
+    font-family: 'Poppins', sans-serif;
+    background-color: #F4F4F4;
+    color: #333;
     text-align: center;
     margin: 0;
     padding: 0;
+    animation: fadeIn 1s ease-in-out;
 }
 
-/* Navegación */
+/* 🔹 Menú de navegación */
 .nav-header {
     display: flex;
     justify-content: center;
     gap: 20px;
-    background-color: #1C1C1C; /* Negro */
+    background-color: #181818;
     padding: 15px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .nav-header button {
-    background-color: #C9A74D; /* Dorado */
-    color: #1C1C1C; /* Texto en negro */
+    background-color: #C9A74D;
+    color: #FFF;
     border: none;
     padding: 12px 25px;
     font-size: 18px;
@@ -32,30 +33,30 @@ body {
 }
 
 .nav-header button:hover {
-    background-color: #A88332; /* Dorado más oscuro */
+    background-color: #B08A3C;
     transform: scale(1.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
-.nav-header button:active {
-    background-color: #876D29; /* Aún más oscuro */
-}
-
-/* Contenido principal */
+/* 🔹 Contenido principal */
 #welcome-section {
     margin-top: 50px;
     background: #fff;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 60%;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
+    transform: translateY(20px);
+    opacity: 0;
+    animation: slideUp 0.8s ease-in-out forwards;
 }
 
 h1 {
-    font-size: 28px;
-    color: #1C1C1C;
-    margin-bottom: 10px;
+    font-size: 32px;
+    color: #222;
+    margin-bottom: 15px;
 }
 
 p {
@@ -64,42 +65,40 @@ p {
     color: #555;
 }
 
-/* 🔹 Footer principal */
+/* 🔹 Footer */
 footer {
-    background: #1e1e1e; /* Fondo oscuro elegante */
+    background: #181818;
     color: white;
-    padding: 40px 0;
+    padding: 35px 0;
     text-align: center;
-    font-family: 'Arial', sans-serif;
     margin-top: 50px;
-    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1.5s ease-in-out;
 }
 
-/* 🔹 Footer mejorado */
-footer {
-    background: #222; /* Un negro menos agresivo */
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-    font-family: 'Arial', sans-serif;
-    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2);
-}
-
-/* 🔹 Contenido del Footer */
-.footer-content {
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-}
-
-/* 🔹 Texto del footer */
 .footer-content p {
     margin: 5px 0;
-    font-size: 1em;
-    opacity: 0.9; /* Más visibilidad */
-    color: #ddd; /* Color más claro */
+    font-size: 16px;
+    opacity: 0.9;
+    color: #ddd;
 }
 
+/* Animaciones */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

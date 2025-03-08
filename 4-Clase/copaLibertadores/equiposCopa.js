@@ -1,72 +1,70 @@
-const JsonLocal = '../json/equiposLibertadores.json';  // Asegúrate de que el archivo JSON esté en el mismo directorio
+const JsonLocal = '../json/equiposLibertadores.json';  
 
-// Función para obtener los archivos desde el API
+// Función para obtener los archivos desde el JSON
 function getFilesFromApi() {
     fetch(JsonLocal)
-        .then((response) => {
+        .then(response => {
             if (!response.ok) {
-                throw new Error("Network response was not ok");
+                throw new Error("Error al cargar los datos");
             }
             return response.json();
         })
-        .then((data) => {
-            // Mostramos los datos del archivo JSON en la consola
+        .then(data => {
             console.log('Datos obtenidos:', data);
-            // Usamos data.equipos en lugar de data.results
             createCharacterCards(data);
         })
-        .catch((error) => {
+        .catch(error => {
             console.error("Hubo un problema con la operación fetch:", error);
         });
 }
 
-// Función para crear las tarjetas de personajes
+// Función para crear las tarjetas de equipos
 function createCharacterCards(equipos) {
-    // Obtenemos el contenedor de los personajes en el HTML
     const charactersContainer = document.getElementById("charactersContainer");
 
-    // Verificamos si equipos es un array válido
     if (Array.isArray(equipos)) {
-        // Recorremos cada equipo y creamos su tarjeta
-        equipos.forEach((equipo) => {
-            // Creamos un elemento div para la tarjeta del equipo  
+        equipos.forEach(equipo => {
+            // Crear la tarjeta principal
             const card = document.createElement("div");
             card.classList.add("character-card");
 
-            // Creamos un elemento H3 para mostrar el nombre del equipo
-            const nameTeam = document.createElement("H3");
-            nameTeam.textContent = `Nombre: ${equipo.nombre}`;
+            // Contenedor interno para permitir el giro
+            const cardInner = document.createElement("div");
+            cardInner.classList.add("card-inner");
 
-            // Creamos un elemento H3 para mostrar el país del equipo
-            const namePais = document.createElement("H3");
-            namePais.textContent = `País: ${equipo.pais}`;
+            // Lado frontal de la tarjeta (con información y escudo)
+            const cardFront = document.createElement("div");
+            cardFront.classList.add("card-front");
+            cardFront.innerHTML = `
+                <h4>Nombre: ${equipo.nombre}</h4>
+                <h4>País: ${equipo.pais}</h4>
+                <h4>Títulos: ${equipo.títulos}</h4>
+                <h4>Estadio: ${equipo.estadio}</h4>
+                <h4>Última vez Campeón: ${equipo.último_campeón}</h4>
+                <img src="${equipo.escudo}" alt="Escudo de ${equipo.nombre}" class="team-logo">
+            `;
 
-            // Creamos un elemento H3 para mostrar los títulos ganados
-            const numTitulos = document.createElement("H3");
-            numTitulos.textContent = `Títulos: ${equipo.títulos}`;
+            // Lado trasero (imagen personalizada)
+            const cardBack = document.createElement("div");
+            cardBack.classList.add("card-back");
 
-            // Creamos un elemento H3 para mostrar el estadio del equipo
-            const nameEstadio = document.createElement("H3");
-            nameEstadio.textContent = `Estadio: ${equipo.estadio}`;
+            // Imagen (la agregarás tú después)
+            const imageCustom = document.createElement("img");
+            imageCustom.src = equipo.imgCampeon; // Aquí puedes cambiar la imagen
 
+            cardBack.appendChild(imageCustom);
 
-            // Creamos un elemento H3 para mostrar el estadio del equipo
-            const nameUltimoCampeon = document.createElement("H3");
-            nameUltimoCampeon.textContent = `Estadio: ${equipo.último_campeón}`;
+            // Agregar lados a la tarjeta interna
+            cardInner.appendChild(cardFront);
+            cardInner.appendChild(cardBack);
+            card.appendChild(cardInner);
 
-            // Creamos un elemento img para el escudo del equipo (suponiendo que cada equipo tiene una imagen)
-            const imageEscudo = document.createElement("img");
-            imageEscudo.src = equipo.escudo || '';  // Asegúrate de que el campo 'image' existe
+            // Evento de clic para girar la tarjeta
+            card.addEventListener("click", () => {
+                card.classList.toggle("flipped");
+            });
 
-            // Agregamos los elementos a la tarjeta
-            card.appendChild(nameTeam);
-            card.appendChild(namePais);
-            card.appendChild(numTitulos);
-            card.appendChild(nameEstadio);
-            card.appendChild(nameUltimoCampeon);
-            card.appendChild(imageEscudo);
-
-            // Agregamos la tarjeta al contenedor
+            // Agregar la tarjeta al contenedor
             charactersContainer.appendChild(card);
         });
     } else {
@@ -74,5 +72,5 @@ function createCharacterCards(equipos) {
     }
 }
 
-// Llamamos a la función para obtener los equipos del archivo JSON
+// Llamar a la función para obtener los equipos del JSON
 getFilesFromApi();

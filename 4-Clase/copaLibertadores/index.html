@@ -1,36 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Copa Libertadores</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../styleHeader.css">
-    <script src="equiposCopa.js"></script>
+    <script src="equiposCopa.js" defer></script>
 </head>
-
 <body>
     <header>
         <nav class="nav-header">
             <button onclick="window.location.href='../rick/index.html'">Rick</button>
-            <button onclick="window.location.href='index.html'">Copa Libertadores</button>
-            <button onclick="window.location.href='../me/index.html'">Perfil</button>
+            <button onclick="window.location.href='index.html'">Campeones Copa Libertadores</button>
+            <button onclick="window.location.href='../me/index.html'">Mi Perfil</button>
         </nav>
     </header>
 
-    <!-- Video de fondo     -->
     <video class="video-bg" autoplay loop muted playsinline>
         <source src="/video/intro_conmebol_libertadores.webm" type="video/webm">
         Tu navegador no soporta videos en HTML5.
     </video>
 
     <main>
-        <!-- Contenido principal de la página -->
         <section id="inicio">
-            <div id="charactersContainer" class="characters-container">
-
-            </div>
+            <div id="charactersContainer" class="characters-container"></div>
         </section>
     </main>
 
@@ -41,5 +35,4 @@
         </div>
     </footer>
 </body>
-
 </html>

@@ -3,11 +3,12 @@
     "nombre": "Jhon Arley Forero Velasco",
     "pais": "Colombia",
     "telefono": 3122075191,
-    "documento": 1113699034,
+    "foto": "../img/programador.png",
     "edad": 25,
+    "interesTecnologicos" : "Apasionado por la tecnología. Me encanta aprender sobre temas tecnologicos, las últimas tendencias y descubrir cómo la tecnología puede transformar nuestro día a día. Desde inteligencia artificial hasta desarrollo de software.",
     "estudiosActual": "Ingenieria de Sistemas",
-    "imagesUniversidad": "https://www.comfenalcovalle.com.co/wp-content/uploads/2023/07/logo-universidad-santiago-de-cali-2.jpg",
+    "imagesUniversidad": "../img/usc.jpg",
     "educacion": "Tecnologo en Gestion de Redes de Datos",
-    "imagesSena": "https://upload.wikimedia.org/wikipedia/commons/d/df/Logotipo_SENA.jpg"
+    "imagesSena": "../img/sena.jpg"
   }
 ]
