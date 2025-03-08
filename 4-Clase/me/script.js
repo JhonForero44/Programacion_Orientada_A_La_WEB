@@ -70,8 +70,8 @@ function createCharacterCards(estudiantes) {
             srcFoto.src = estudiante.foto || '';
 
             const interesPersonales = document.createElement("p");
-            interesPersonales.textContent = estudiante.interesTecnologicos;
-
+            interesPersonales.textContent = `Intereses TI: ${estudiante.interesTecnologicos}`;
+            
             // Agregamos los elementos a la tarjeta
             card.appendChild(nameStudent);
             card.appendChild(srcFoto);

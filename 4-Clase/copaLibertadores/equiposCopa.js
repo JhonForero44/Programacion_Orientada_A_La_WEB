@@ -1,4 +1,4 @@
-const JsonLocal = '../json/equiposLibertadores.json';  
+const JsonLocal = '../json/equiposLibertadores.json';
 
 // Función para obtener los archivos desde el JSON
 function getFilesFromApi() {
@@ -36,11 +36,11 @@ function createCharacterCards(equipos) {
             const cardFront = document.createElement("div");
             cardFront.classList.add("card-front");
             cardFront.innerHTML = `
-                <h4>Nombre: ${equipo.nombre}</h4>
-                <h4>País: ${equipo.pais}</h4>
-                <h4>Títulos: ${equipo.títulos}</h4>
-                <h4>Estadio: ${equipo.estadio}</h4>
-                <h4>Última vez Campeón: ${equipo.último_campeón}</h4>
+                <p><strong>Nombre:</strong> ${equipo.nombre}</p>
+                <p><strong>País:</strong> ${equipo.pais}</p>
+                <p><strong>Títulos:</strong> ${equipo.títulos}</p>
+                <p><strong>Estadio:</strong> ${equipo.estadio}</p>
+                <p><strong>Última vez Campeón:</strong>${equipo.último_campeón}</p>
                 <img src="${equipo.escudo}" alt="Escudo de ${equipo.nombre}" class="team-logo">
             `;
 
