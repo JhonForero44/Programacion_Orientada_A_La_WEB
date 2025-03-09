@@ -28,6 +28,11 @@ function createCharacterCards(equipos) {
             const card = document.createElement("div");
             card.classList.add("character-card");
 
+            // Aplicar GIF como fondo
+            card.style.backgroundImage = `url('${equipo.fondoGif}')`;
+            card.style.backgroundSize = "cover";
+            card.style.backgroundPosition = "center";
+            
             // Contenedor interno para permitir el giro
             const cardInner = document.createElement("div");
             cardInner.classList.add("card-inner");

@@ -8,26 +8,41 @@ body {
     padding: 0;
 }
 
-/* Botón de índice */
 #BotonIndex {
-    background-color: lightblue;
+    background: linear-gradient(135deg, #97c11f, #00b5cc); /* Verde y azul neón */
     padding: 12px 20px;
-    border-radius: 40px;
-    border: 2px solid lightsalmon;
-    font-size: 1em;
+    border-radius: 50px;
+    border: 2px solid #1a1a1a; /* Borde oscuro estilo serie */
+    font-size: 1.5em;
     font-weight: bold;
-    color: #333;
+    color: #1a1a1a; /* Oscuro para contraste */
     text-decoration: none;
-    display: inline-block;
-    transition: all 0.3s ease-in-out;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.5);
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    overflow: hidden;
 }
 
+/* Efecto al pasar el mouse */
 #BotonIndex:hover {
-    background-color: lightsalmon;
-    color: white;
+    background: linear-gradient(135deg, #00ff00, #00e5ff); /* Verde más neón */
     transform: scale(1.1);
+    box-shadow: 6px 6px 15px rgba(0, 255, 0, 0.5);
+    color: black;
+}
+
+/* Efecto de pulsación al hacer clic */
+#BotonIndex:active {
+    transform: scale(0.9);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
 }
 
 /* Título */

@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     animation: fadeIn 1s ease-in-out;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
 }
 
 /* 🔹 Menú de navegación */
@@ -16,11 +17,11 @@ body {
     gap: 20px;
     background-color: #181818;
     padding: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
 .nav-header button {
-    background-color: #D4AF37;
+    background: linear-gradient(135deg, #f6c90e, #d4af37); /* Dorado elegante */
     color: #FFF;
     border: none;
     padding: 12px 25px;
@@ -29,40 +30,48 @@ body {
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .nav-header button:hover {
-    background-color: #B08A3C;
+    background: linear-gradient(135deg, #e8b923, #b08a3c);
     transform: scale(1.1);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
 }
 
 /* 🔹 Contenido principal */
 #welcome-section {
     margin-top: 50px;
-    background: #fff;
+    background: white;
     padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
     width: 50%;
     margin-left: auto;
     margin-right: auto;
     transform: translateY(20px);
     opacity: 0;
     animation: slideUp 0.8s ease-in-out forwards;
+    transition: all 0.3s ease-in-out;
 }
 
+#welcome-section:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+}
+
+/* 🔹 Títulos y párrafos */
 h1 {
-    font-size: 32px;
+    font-size: 34px;
     color: #222;
     margin-bottom: 15px;
+    font-weight: bold;
 }
 
 p {
     font-size: 18px;
     line-height: 1.6;
-    color: #555;
+    color: #444;
 }
 
 /* 🔹 Footer */

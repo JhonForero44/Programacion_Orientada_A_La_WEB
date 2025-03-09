@@ -34,28 +34,28 @@ function createCharacterCards(estudiantes) {
             card.classList.add("character-card");
 
             // Creamos un elemento H3 para mostrar el nombre del equipo
-            const nameStudent = document.createElement("H3");
-            nameStudent.textContent = `Nombre: ${estudiante.nombre}`;
+            const nameStudent = document.createElement("p");
+            nameStudent.innerHTML = `<strong>Nombre:</strong> ${estudiante.nombre}`;
 
             // Creamos un elemento H3 para mostrar el país del equipo
             const namePais = document.createElement("p");
-            namePais.textContent = `País: ${estudiante.pais}`;
+            namePais.innerHTML = `<strong>Pais:</strong> ${estudiante.pais}`;
 
             // Creamos un elemento H3 para mostrar los títulos ganados
             const numTelefono = document.createElement("p");
-            numTelefono.textContent = `Telefono: ${estudiante.telefono}`;
+            numTelefono.innerHTML = `<strong>Telefono:</strong> ${estudiante.telefono}`;
 
             // Creamos un elemento H3 para mostrar el estadio del equipo
             const yearStudent = document.createElement("p");
-            yearStudent.textContent = `Edad: ${estudiante.edad}`;
+            yearStudent.innerHTML = `<strong>Edad:</strong> ${estudiante.edad}`;
 
             // Creamos un elemento img para el escudo del equipo (suponiendo que cada equipo tiene una imagen)
-            const actuEstud = document.createElement("p");
-            actuEstud.textContent = `Educacion Actual: ${estudiante.estudiosActual}`;
-            
+            const actuEstud = document.createElement("p");;
+            actuEstud.innerHTML = `<strong>Estudio Actual:</strong> ${estudiante.estudiosActual}`;
+
             // Creamos un elemento H3 para mostrar el estadio del equipo
             const eduStudent = document.createElement("p");
-            eduStudent.textContent = `Educacion: ${estudiante.educacion}`;
+            eduStudent.innerHTML = `<strong>Educacion Realizada:</strong> ${estudiante.educacion}`;
 
             // Creamos un elemento H3 para mostrar el estadio del equipo
             const srcFotoUni = document.createElement("img");
@@ -70,8 +70,9 @@ function createCharacterCards(estudiantes) {
             srcFoto.src = estudiante.foto || '';
 
             const interesPersonales = document.createElement("p");
-            interesPersonales.textContent = `Intereses TI: ${estudiante.interesTecnologicos}`;
-            
+            interesPersonales.innerHTML = `<strong>Intereses TI:</strong> ${estudiante.interesTecnologicos}`;
+
+
             // Agregamos los elementos a la tarjeta
             card.appendChild(nameStudent);
             card.appendChild(srcFoto);

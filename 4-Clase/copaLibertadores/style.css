@@ -62,17 +62,20 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 20px;
+    justify-content: flex-start; /* ❗ Evita que el contenido empuje el fondo */
+    padding: 20; /* ❗ Quita el padding interno */
     text-align: center;
-    font-size: 14px; /* Letra más pequeña */
+    font-size: 14px;
     overflow: hidden;
     word-wrap: break-word;
-    line-height: 0.9;
+    line-height: 1;
+    background-size: cover; /* ✅ Ajusta el fondo al tamaño de la tarjeta */
+    background-position: center; /* ✅ Centra el GIF */
+    background-repeat: no-repeat;
 }
 
 .card-front {
-    background-color: rgba(218, 165, 32, 0.85);
+    background-color: transparent;
     color: white;
 }
 
@@ -82,8 +85,11 @@ body {
 }
 
 .card-back img {
-    width: 80%;
-    border-radius: 8px;
+    width: 100%; /* Ajusta el ancho para que ocupe todo el contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    object-fit: contain; /* Asegura que la imagen se ajuste sin recortarse */
+    display: block; /* Elimina espacios adicionales */
+    margin: auto; /* Centra la imagen horizontalmente */
 }
 
 .card-content {
@@ -95,7 +101,7 @@ body {
 }
 
 .team-logo {
-    width: 80px;  /* Ajusta el tamaño */
+    width: 60px;  /* Ajusta el tamaño */
     height: auto;
     margin-top: 10px;
 }
