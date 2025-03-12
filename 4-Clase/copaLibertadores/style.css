@@ -1,5 +1,8 @@
+/* Fuente moderna */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 body {
-    font-family: monospace;
+    font-family: 'Poppins', sans-serif;
     background-color: lightgoldenrodyellow;
     color: black;
     text-align: center;
@@ -20,7 +23,8 @@ body {
 .characters-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px; /* Aumenta separación entre las cartas */
+    gap: 30px;
+    /* Aumenta separación entre las cartas */
     justify-content: center;
     place-items: center;
     padding: 50px 20px;
@@ -31,12 +35,15 @@ body {
     width: 250px;
     height: 350px;
     cursor: pointer;
-    margin-bottom: 30px; /* Espacio entre tarjetas en columnas */
+    margin-bottom: 30px;
+    /* Espacio entre tarjetas en columnas */
 }
 
 .character-card p {
-    color: white;
-    font-size: 14px;
+    color: #FFD700; /* Amarillo dorado */
+    font-size: 14px; /* Un poco más grande */
+    font-weight: 600; /* Negrita */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra negra para destacar */
 }
 
 .card-inner {
@@ -51,7 +58,8 @@ body {
     transform: rotateY(180deg);
 }
 
-.card-front, .card-back {
+.card-front,
+.card-back {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -62,15 +70,19 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start; /* ❗ Evita que el contenido empuje el fondo */
-    padding: 20; /* ❗ Quita el padding interno */
+    justify-content: flex-start;
+    /* ❗ Evita que el contenido empuje el fondo */
+    padding: 20;
+    /* ❗ Quita el padding interno */
     text-align: center;
     font-size: 14px;
     overflow: hidden;
     word-wrap: break-word;
     line-height: 1;
-    background-size: cover; /* ✅ Ajusta el fondo al tamaño de la tarjeta */
-    background-position: center; /* ✅ Centra el GIF */
+    background-size: cover;
+    /* ✅ Ajusta el fondo al tamaño de la tarjeta */
+    background-position: center;
+    /* ✅ Centra el GIF */
     background-repeat: no-repeat;
 }
 
@@ -85,11 +97,16 @@ body {
 }
 
 .card-back img {
-    width: 100%; /* Ajusta el ancho para que ocupe todo el contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
-    object-fit: contain; /* Asegura que la imagen se ajuste sin recortarse */
-    display: block; /* Elimina espacios adicionales */
-    margin: auto; /* Centra la imagen horizontalmente */
+    width: 100%;
+    /* Ajusta el ancho para que ocupe todo el contenedor */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+    object-fit: contain;
+    /* Asegura que la imagen se ajuste sin recortarse */
+    display: block;
+    /* Elimina espacios adicionales */
+    margin: auto;
+    /* Centra la imagen horizontalmente */
 }
 
 .card-content {
@@ -101,7 +118,8 @@ body {
 }
 
 .team-logo {
-    width: 60px;  /* Ajusta el tamaño */
+    width: 60px;
+    /* Ajusta el tamaño */
     height: auto;
     margin-top: 10px;
 }
