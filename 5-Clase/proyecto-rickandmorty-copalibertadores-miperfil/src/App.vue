@@ -1,33 +1,37 @@
 <template>
   <header>
-    <NavMenu />
+    <NavBar />
   </header>
   <main>
     <router-view />
   </main>
-  <MiFooter />
+  <footer>
+    <MiFooter />
+  </footer>
 </template>
 
 <script>
-import MiFooter from './components/MiFooter.vue'
-import NavMenu from './components/NavMenu.vue'
+import NavBar from './components/NavBar.vue';
+import MiFooter from './components/MiFooter.vue';
 
 export default {
   name: 'App',
   components: {
-    MiFooter,
-    NavMenu
+    NavBar,
+    MiFooter
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F4F4F4;
+  color: #333;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  margin: 0;
+  padding: 0;
+  animation: fadeIn 1s ease-in-out;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
 }
 </style>

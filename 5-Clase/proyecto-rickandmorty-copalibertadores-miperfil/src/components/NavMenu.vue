@@ -1,6 +1,5 @@
 <template>
     <nav class="nav-header">
-        <router-link to="/">Home</router-link>
         <router-link to="/rickandmorty">Rick And Morty</router-link>
         <router-link to="/copalibertadores">Copa Libertadores</router-link>
         <router-link to="/myprofile">Mi Perfil</router-link>
@@ -42,4 +41,5 @@
     transform: scale(1.1);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
 }
+
 </style>
