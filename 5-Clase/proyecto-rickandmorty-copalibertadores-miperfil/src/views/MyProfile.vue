@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import EstudiantesList from '@/components/EstudiantesList.vue';
+import EstudiantesList from '@/components/EstudianteListApi.vue';
 
 export default {
   components: {

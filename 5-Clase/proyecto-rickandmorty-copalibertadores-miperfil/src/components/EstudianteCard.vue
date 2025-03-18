@@ -1,7 +1,7 @@
 <template>
     <div class="character-card">
-        <img :src="estudiante.foto" alt="Foto del estudiante" v-if="estudiante.foto">
         <p><strong>Nombre:</strong> {{ estudiante.nombre }}</p>
+        <img :src="estudiante.foto" alt="Foto del estudiante" v-if="estudiante.foto">
         <p><strong>País:</strong> {{ estudiante.pais }}</p>
         <p><strong>Teléfono:</strong> {{ estudiante.telefono || 'N/A' }}</p>
         <p><strong>Edad:</strong> {{ estudiante.edad }}</p>

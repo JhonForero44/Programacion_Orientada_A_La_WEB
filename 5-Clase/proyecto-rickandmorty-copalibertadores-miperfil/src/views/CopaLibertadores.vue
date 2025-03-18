@@ -1,12 +1,11 @@
 <template>
-    <div>
-        <h1>Hola esta es la pagina de Copa Libertadores</h1>
-        <ListaEquipos />
-    </div>
-  </template>
+  <div>
+    <ListaEquipos />
+  </div>
+</template>
 
 <script scope>
-import ListaEquipos from '@/components/ConnectionApiCopaLibertadores.vue';
+import ListaEquipos from '@/components/CopaLibertadoresListApi.vue';
 
 export default {
   components: {

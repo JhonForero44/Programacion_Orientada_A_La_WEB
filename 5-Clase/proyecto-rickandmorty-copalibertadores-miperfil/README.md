@@ -1,4 +1,4 @@
-# practicavue
+# proyecto-rickandmorty-copalibertadores-miperfil
 
 ## Project setup
 ```
