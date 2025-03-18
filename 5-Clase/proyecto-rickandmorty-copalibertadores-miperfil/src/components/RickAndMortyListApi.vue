@@ -27,7 +27,7 @@ export default {
 
       try {
         const response = await axios.get(apiURL);
-        console.log('✅ Datos recibidos:', response.data); // Imprime el JSON en consola
+        console.log('Datos recibidos:', response.data); // Imprime el JSON en consola
         this.personajes = response.data.results; // Usar `results`
       } catch (error) {
         console.error('Error al cargar los datos:', error);

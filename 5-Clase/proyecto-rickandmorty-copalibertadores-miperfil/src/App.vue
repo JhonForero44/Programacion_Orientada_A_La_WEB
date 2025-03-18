@@ -5,9 +5,7 @@
   <main>
     <router-view />
   </main>
-  <footer>
-    <MiFooter />
-  </footer>
+  <MiFooter />
 </template>
 
 <script>

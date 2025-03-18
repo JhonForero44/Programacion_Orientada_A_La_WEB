@@ -1,14 +1,17 @@
 <template>
-  <div>
+  <FontVideo />
+  <main>
     <ListaEquipos />
-  </div>
+  </main>
 </template>
 
 <script scope>
 import ListaEquipos from '@/components/CopaLibertadoresListApi.vue';
+import FontVideo from '@/components/FontVideo.vue';
 
 export default {
   components: {
+    FontVideo,
     ListaEquipos
   }
 };

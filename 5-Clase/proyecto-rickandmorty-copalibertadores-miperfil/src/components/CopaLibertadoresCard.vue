@@ -10,15 +10,14 @@
         <p><strong>Última vez Campeón:</strong> {{ equipo.último_campeón }}</p>
         <img :src="equipo.escudo" :alt="'Escudo de ' + equipo.nombre" class="team-logo">
       </div>
-
       <!-- Lado trasero -->
       <div class="card-back">
         <img :src="equipo.imgCampeon" alt="Imagen del campeón">
       </div>
     </div>
   </div>
-</template>
 
+</template>
 <script>
 export default {
   props: {
@@ -39,22 +38,37 @@ export default {
 
 <style scoped>
 /* Fuente moderna */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+.characters-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  /* Aumenta separación entre las cartas */
+  justify-content: center;
+  place-items: center;
+  padding: 50px 20px;
+}
 
 .character-card {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   perspective: 1000px;
   width: 250px;
   height: 350px;
   cursor: pointer;
   margin-bottom: 30px;
-  font-family: 'Poppins', sans-serif;
+  /* Espacio entre tarjetas en columnas */
 }
 
 .character-card p {
-  color: #FFD700; /* Amarillo dorado */
+  color: #FFD700;
+  /* Amarillo dorado */
   font-size: 14px;
+  /* Un poco más grande */
   font-weight: 600;
+  /* Negrita */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  /* Sombra negra para destacar */
 }
 
 .card-inner {
@@ -65,8 +79,8 @@ export default {
   position: relative;
 }
 
-.flipped {
-  transform: rotateY(180deg);
+.card-inner.flipped {
+    transform: rotateY(180deg);
 }
 
 .card-front,
@@ -82,15 +96,14 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: 20px;
+  /* ❗ Evita que el contenido empuje el fondo */
+  padding: 20;
+  /* ❗ Quita el padding interno */
   text-align: center;
   font-size: 14px;
   overflow: hidden;
   word-wrap: break-word;
   line-height: 1;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .card-front {
@@ -105,30 +118,44 @@ export default {
 
 .card-back img {
   width: 100%;
+  /* Ajusta el ancho para que ocupe todo el contenedor */
   height: auto;
+  /* Mantiene la proporción de la imagen */
   object-fit: contain;
+  /* Asegura que la imagen se ajuste sin recortarse */
   display: block;
+  /* Elimina espacios adicionales */
   margin: auto;
+  /* Centra la imagen horizontalmente */
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 100%;
+  overflow-y: auto;
 }
 
 .team-logo {
-  width: 60px;
+  width: 90px;
+  /* Ajusta el tamaño */
   height: auto;
   margin-top: 10px;
 }
 
 /* Responsive */
 @media (max-width: 768px) {
-  .character-card {
-    width: 200px;
-    height: 300px;
+  .characters-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
 }
 
 @media (max-width: 480px) {
-  .character-card {
-    width: 180px;
-    height: 280px;
+  .characters-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
   }
 }
 </style>

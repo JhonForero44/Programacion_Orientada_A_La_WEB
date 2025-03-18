@@ -1,10 +1,13 @@
 <template>
-    <h1>Hola esta es la pagina de Rick And Morty</h1>
+  <h1>Rick and Morty Personajes</h1>
+  <main>
     <ListaRickAndMorty />
+  </main>
+
 </template>
 
 <script scope>
-import ListaRickAndMorty from '@/components/ConnectionApiRickAndMorty.vue';
+import ListaRickAndMorty from '@/components/RickAndMortyListApi.vue';
 
 export default {
   components: {
