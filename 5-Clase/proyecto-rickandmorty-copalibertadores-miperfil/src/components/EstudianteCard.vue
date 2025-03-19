@@ -49,8 +49,8 @@ export default {
 /* Imágenes con borde dorado */
 .character-card img {
     width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    height: 200px;
+    border-radius: 8px;
     object-fit: cover;
     margin-bottom: 15px;
     padding: 10px;

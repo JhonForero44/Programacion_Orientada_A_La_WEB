@@ -1,9 +1,7 @@
 <template>
-  <h1>Rick and Morty Personajes</h1>
   <main>
     <ListaRickAndMorty />
   </main>
-
 </template>
 
 <script scope>

@@ -19,6 +19,11 @@ const router = createRouter({
       component: () => import('../views/RickAndMorty.vue') 
     },
     {
+      path: '/PersonajeCapitulo/:id',
+      name: 'PersonajeCapitulo',
+      component: () => import('../views/PersonajeCapitulo.vue') 
+    },
+    {
       path: '/copalibertadores',
       name: 'copalibertadores',
       component: () => import('../views/CopaLibertadores.vue') 
