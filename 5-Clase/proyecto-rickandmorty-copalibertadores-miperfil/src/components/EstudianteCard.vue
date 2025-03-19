@@ -49,14 +49,11 @@ export default {
 /* Imágenes con borde dorado */
 .character-card img {
     width: 100px;
-    height: 200px;
-    border-radius: 8px;
+    height: 100px;
+    border-radius: 50%;
     object-fit: cover;
     margin-bottom: 15px;
-    padding: 10px;
-    background: linear-gradient(135deg, #f5c518, #d4af37);
-    box-shadow: 0px 0px 10px rgba(245, 197, 24, 0.6);
-    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* 🔹 Hover en imágenes */
