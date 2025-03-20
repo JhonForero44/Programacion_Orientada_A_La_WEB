@@ -1,6 +1,6 @@
 <template>
   <nav class="nav-header">
-    <router-link to="/rickandmorty">Rick And Morty</router-link> 
+    <router-link to="/">Rick And Morty</router-link> 
     <router-link to="/copalibertadores">Copa Libertadores</router-link> 
     <router-link to="/myprofile">Mi Perfil</router-link> 
   </nav>  

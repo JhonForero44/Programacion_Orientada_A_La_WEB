@@ -1,35 +1,29 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
+const routes = [
+  {
+    path: '/',
+    component: () => import('@/layouts/DefaultLayout.vue'),  // Layout principal  
+    children: [
+      {
+        path: '',
+        component: () => import('@/views/RickAndMorty.vue')  // Ruta base (Página de inicio)
+      },
+      {
+        path: 'copalibertadores',
+        component:  () => import('@/views/CopaLibertadores.vue')  
+        },
+      {
+        path: 'myprofile',
+        component:  () => import('@/views/MyProfile.vue')
+      }
+    ]
+  }
+]
+
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
-  routes: [
-    {
-      path: '/',
-      name: 'home',
-      component: () => import('../views/HomeView.vue') 
-    },
-    {
-      path: '/myprofile',
-      name: 'myprofile',
-      component: () => import('../views/MyProfile.vue') 
-    },
-    {
-      path: '/rickandmorty',
-      name: 'rickandmorty',
-      component: () => import('../views/RickAndMorty.vue') 
-    },
-    {
-      path: '/PersonajeCapitulo/:id',
-      name: 'PersonajeCapitulo',
-      component: () => import('../views/PersonajeCapitulo.vue') 
-    },
-    {
-      path: '/copalibertadores',
-      name: 'copalibertadores',
-      component: () => import('../views/CopaLibertadores.vue') 
-    }
-  ]
-});
+  history: createWebHistory(),  // Usa el historial HTML5 (sin # en la URL)
+  routes                         // Usa las rutas definidas arriba
+})
 
-export default router;
-
+export default router  

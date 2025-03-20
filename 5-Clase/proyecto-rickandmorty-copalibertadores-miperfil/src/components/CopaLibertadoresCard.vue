@@ -65,7 +65,6 @@ export default {
   /* Amarillo dorado */
   font-size: 14px;
   /* Un poco más grande */
-  font-weight: 600;
   /* Negrita */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   /* Sombra negra para destacar */

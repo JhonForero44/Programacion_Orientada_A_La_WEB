@@ -1,9 +1,9 @@
 <template>
   <div class="character-card" @click="goToCharacter">
-    <h3>Id: {{ character.id }}</h3>
-    <h3>Nombre: {{ character.name }}</h3>
-    <h3>Especie: {{ character.species }}</h3>
-    <h3>Género: {{ character.gender }}</h3>
+    <p><strong>ID:</strong>{{ character.id }}</p>
+    <p><strong>Nombre:</strong>{{ character.name }}</p>
+    <p><strong>Especie:</strong>{{ character.species }}</p>
+    <p><strong>Genero:</strong>{{ character.gender }}</p>
     <img :src="character.image" :alt="character.name" />
   </div>
 </template>
