@@ -17,7 +17,7 @@
 import axios from "axios";
 import EquiposCard from "./CopaLibertadoresCard.vue";
 
-const JsonLocal = '/data/equiposLibertadores.json' // Importamos el JSON
+const JsonLocal = '/data/equiposLibertadores.json'; // Importamos el JSON
 
 export default {
   components: {
