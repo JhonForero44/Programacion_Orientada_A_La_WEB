@@ -16,6 +16,11 @@ const routes = [
       {
         path: 'myprofile',
         component:  () => import('@/views/MyProfile.vue')
+      },
+      {
+        path: 'personaje/:id',  // Ruta dinámica con parámetro ID
+        name: 'PersonajeCapitulo',
+        component: () => import('@/views/PersonajeCapitulo.vue')
       }
     ]
   }
