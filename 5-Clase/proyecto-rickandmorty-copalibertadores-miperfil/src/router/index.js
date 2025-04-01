@@ -27,7 +27,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),  // Usa el historial HTML5 (sin # en la URL)
+  history: createWebHistory(import.meta.env.BASE_URL),  // Usa el historial HTML5 (sin # en la URL)
   routes                         // Usa las rutas definidas arriba
 })
 
